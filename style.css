@@ -97,3 +97,25 @@ th {
     background: #2d98da;
     color: #fff;
 }
+
+form input, form button {
+    width: 90%;
+    max-width: 260px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+form button {
+    background: #2d98da;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;;
+}
+
+form button:hover {
+    background: #3867d6;
+}
